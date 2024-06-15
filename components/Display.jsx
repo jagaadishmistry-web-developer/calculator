@@ -35,7 +35,7 @@ const Display = () => {
 
   return (
     <>
-      <div className="grid place-items-center h-screen">
+      <div className="grid place-items-center h-screen p-4">
         <div className="bg-slate-100/10 backdrop-blur border-2 px-6 py-6">
           <div className="grid gap-6">
             <div className="text-3xl font-serif rounded-md font-extrabold text-center py-5 bg-slate-500 text-white">
