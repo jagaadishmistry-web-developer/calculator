@@ -67,28 +67,28 @@ const Display = () => {
                 onClick={() => {
                   gtData("plus");
                 }}
-                className="col-span-1 px-12 py-3 bg-slate-400 text-white hover:bg-green-600 font-extrabold text-xl hover:scale-110 duration-500 rounded-md">
+                className="col-span-1 lg:px-12 px-6 py-3 bg-slate-400 text-white hover:bg-green-600 font-extrabold text-xl hover:scale-110 duration-500 rounded-md">
                 +
               </button>
               <button
                 onClick={() => {
                   gtData("minus");
                 }}
-                className="col-span-1 px-12 py-3 bg-slate-400 text-white hover:bg-green-600 font-extrabold text-2xl hover:scale-110 duration-500 rounded-md">
+                className="col-span-1 lg:px-12 px-6 py-3 bg-slate-400 text-white hover:bg-green-600 font-extrabold text-2xl hover:scale-110 duration-500 rounded-md">
                 -
               </button>
               <button
                 onClick={() => {
                   gtData("multi");
                 }}
-                className="col-span-1 px-12 py-3 bg-slate-400 text-white hover:bg-green-600 font-extrabold text-base hover:scale-110 duration-500 rounded-md">
+                className="col-span-1 lg:px-12 px-6 py-3 bg-slate-400 text-white hover:bg-green-600 font-extrabold text-base hover:scale-110 duration-500 rounded-md">
                 x
               </button>
               <button
                 onClick={() => {
                   gtData("divided");
                 }}
-                className="col-span-1 px-12 py-3 bg-slate-400 text-white hover:bg-green-600 font-extrabold text-base hover:scale-110 duration-500 rounded-md">
+                className="col-span-1 lg:px-12 px-6 py-3 bg-slate-400 text-white hover:bg-green-600 font-extrabold text-base hover:scale-110 duration-500 rounded-md">
                 /
               </button>
               <button
